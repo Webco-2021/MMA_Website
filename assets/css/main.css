@@ -3449,3 +3449,8 @@ input, select, textarea {
 			}
 
 	}
+
+	.mat-conatiner{
+		display: flex;
+		flex-direction: row;
+	}
