@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3540,4 +3542,25 @@ input, select, textarea {
 	  }
 	  
 	  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+	  .display-booklet {
+		 /* display: flex;
+		justify-content: flex-end; */
+		margin-bottom: 10vw;
+		
+	  }
+
+	  .display-booklet > img{
+		  width: 500px;
+	  }
+
+.book-intro{
+	margin-top: 2vw;
+}
+
+.read-full{
+	margin-top: 10vw;
+	display: flex;
+	justify-content: center;
 	
+}

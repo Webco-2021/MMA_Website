@@ -16,6 +16,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 	</head>
 	<body class="is-preload">
+		
+	
+
+
+
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -31,7 +36,7 @@
 								<li>
 									<a href="#">Events</a>
 									<ul>
-										<li><a href="#">Lorem dolor</a></li>
+										<li><a href="./kyp.html">Know Your Prof.</a></li>
 										<li><a href="#">Magna phasellus</a></li>
 										<li><a href="#">Etiam sed tempus</a></li>
 										<li>
@@ -48,8 +53,8 @@
 									</ul>
 								</li>
 								<li>
-									<a href="#">Booklets</a>
-									<ul>
+									<a href="Booklets.html">Booklets</a>
+									<!-- <ul>
 										<li><a href="#">Lorem dolor</a></li>
 										<li><a href="#">Magna phasellus</a></li>
 										<li><a href="#">Etiam sed tempus</a></li>
@@ -59,12 +64,12 @@
 												<li><a href="#">Lorem dolor</a></li>
 												<li><a href="#">Phasellus magna</a></li>
 												<li><a href="#">Magna phasellus</a></li>
-												<!-- <li><a href="#">Etiam nisl</a></li>
-												<li><a href="#">Veroeros feugiat</a></li> -->
+												<li><a href="#">Etiam nisl</a></li>
+												 <li><a href="#">Veroeros feugiat</a></li>
 											</ul>
 										</li>
 										<li><a href="#">Veroeros feugiat</a></li>
-									</ul>
+									</ul> --> 
 								</li>
 								<li><a href="./materials-monday/Materials-Monday.html">Materials Monday</a></li>
 								<li><a href="Our-Team.html">Our Team</a></li>
@@ -290,6 +295,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		    <script>
+				let curs = document.querySelector('.cursor');
 
+				document.addEventListener('mousemove', (e) => {
+				let x = e.pageX;
+				let y = e.pageY;
+				curs.style.left = (x - 175) + "px";
+				curs.style.top = (y - 175) + "px";
+				curs.style.opacity = "1"
+				});
+
+			</script>
 	</body>
 </html>
