@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	
 }
 
 ol, ul {
@@ -3476,7 +3477,7 @@ input, select, textarea {
 		border-radius: 40px;
 		background-image: linear-gradient(to bottom right, rgba(1, 5, 8, 0.8) , rgba(77, 149, 207, 0.8));
 		transition: transform 0.2s;
-		backdrop-filter: blur(5px);
+		backdrop-filter: blur(15px);
 		margin-left: 10vh;
 		margin-right: 10vh;
 		
@@ -3564,3 +3565,108 @@ input, select, textarea {
 	justify-content: center;
 	
 }
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+	font-family: "Lato","Avenir Next",Arial,sans-serif;
+  margin: 0;
+  background: #000;
+  background-size: cover;
+} */
+
+video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 81%;
+  /* height: 80%; */
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+	filter: opacity(40%); 
+}
+
+.outer-video{
+	display: flex;
+	justify-content: center;
+}
+
+.overlay {
+	position: relative;
+	top: -60vh;
+  /* min-height: 100vh; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+.overlay h2 {
+    background: #000 none repeat scroll 0 0;
+    color: rgb(240, 229, 218);
+    font-weight: 600;
+    margin: 2rem 3rem 0;
+    mix-blend-mode: overlay;
+    padding: 5px 15px;
+    text-align: center; 
+	font-size: calc(20px + 12vh);
+  line-height: calc(20px + 20vh);
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff;
+  
+}
+
+
+header {
+	background:tan;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	padding: 0.5em;
+}
+nav a {
+    color: inherit;
+    padding: 0 12px;
+    text-decoration: none;
+}
+
+
+  .intro{
+	  display: flex;
+	  /* flex-direction: column; */
+	  justify-content: center;
+	  /* width: 75%; */
+  } 
+
+  .outer-video-container{
+	  margin-top: 5vw;
+  }
+
+  .word-body{
+	background-color: #2e4057;
+	margin:0;
+	display: flex;
+  }
+
+  
+  .outer{
+	  display: flex;
+  }
+
+ 
