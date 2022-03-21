@@ -36,18 +36,19 @@
 
   .info-heading{
       text-align: center;
-      color: azure;
+      color: rgb(19, 27, 27);
       font-size: 50px;
       margin-top: 10vh;
+      font-weight: bold;
       
   }
 
   .info-body{
     text-align: center;
-    color: azure;
+    color: rgb(27, 32, 32);
     /* font-size: 50px; */
     margin-top: 10vh;
     padding-left:5vh ;
     padding-right: 5vh;
-    font-weight: bolder;
+    font-weight: bold;
   }
